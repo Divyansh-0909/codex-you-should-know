@@ -1,0 +1,14 @@
+{
+  "name": "you-should-know",
+  "version": "0.1.0",
+  "description": "Reviews completed Codex turns and surfaces important caveats, failures, skipped work, and hidden limitations.",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "You Should Know",
+    "shortDescription": "Catch details Codex missed",
+    "longDescription": "Reviews Codex tool results and final answers, then surfaces important failures, skipped checks, assumptions, and limitations as a concise warning.",
+    "developerName": "Divyansh Singh",
+    "category": "Developer Tools"
+  }
+}
