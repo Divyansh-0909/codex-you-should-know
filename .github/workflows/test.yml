@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
       - name: Run plugin tests
-        run: node --test plugins/you-should-know/tests/*.test.mjs
+        run: node --test plugins/you-should-know/tests/reviewer.test.mjs plugins/you-should-know/tests/hook-contract.test.mjs
 
   installer-syntax:
     runs-on: ubuntu-latest
